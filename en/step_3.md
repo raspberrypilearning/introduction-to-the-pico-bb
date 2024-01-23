@@ -1,7 +1,25 @@
-## What next?
+## Install Thonny
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+In this step, you will install Thonny or make sure you have the latest version. Then you will connect to a Raspberry Pi Pico and run some simple Python code using the Shell. 
 
-![ProjectName project](images/projectname-project.png)
+Note: If you are completing this project in a school or other setting with a managed network, then you should make sure that you have the appropriate permissions to mount a USB drive and install software.
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+--- task ---
+
+The Thonny Python editor can be installed on a Linux, Windows or Mac computer.
+
+[[[thonny-install]]]
+
+[[[change-theme-thonny]]]
+
+--- /task ---
+
+--- task ---
+
+Open Thonny from your application launcher. It should look something like this:
+
+![Thonny application](images/thonny-editor.png)
+
+--- /task ---
+
+

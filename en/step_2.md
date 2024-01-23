@@ -1,23 +1,25 @@
-## Step title
+## Meet Raspberry Pi Pico
 
-Add an introductory sentence. What will learners achieve by the end of this step?
+This is a Raspberry Pi Pico. Hopefully your device has already had the header pins soldered on, but if not, you might like to have a look at our [Getting started with soldering resource](https://projects.raspberrypi.org/en/projects/getting-started-with-soldering).
+
+![Raspberry Pi Pico](images/Pico-Top-Headers.png)
 
 --- task ---
-
-If working **online**, open the [starter project](https://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
  
-If working **offline**, open the project [starter file](https://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+Plug your micro USB cable into the port on the left-hand side of the board.
 
-You should see...
- 
-![starter project](images/starter_project.png)
+![Micro USB cable plugged into the Pico](images/pico-top-plug.png)
 
 --- /task ---
 
---- task ---
+A Raspberry Pi Pico has 40 pins on its board. Pins allow you to connect external components to the Raspberry Pi Pico.
 
-Step content...
+If you need to know the pin numbers for a Raspberry Pi Pico, you can refer to the following diagram that shows the underneath side of the Raspberry Pi Pico.
 
---- /task ---
+![Pinout of a Raspberry Pi Pico](images/pico-bottom.png)
 
---- save ---
+The [Introduction to Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path uses jumper wires to connect electronic component directly to the Raspberry Pi Pico, with resistors as needed. 
+
+[[[pin-socket-jumper-wires]]]
+
+

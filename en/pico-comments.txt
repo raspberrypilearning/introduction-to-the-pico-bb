@@ -1,0 +1,15 @@
+store the current option
+
+call the next function and update the option
+
+move to the next option
+
+Call the choice function when the button is pressed
+
+Pot is short for Potentiometer
+
+Connected to pin A0 (GP_26)
+
+slow down the output
+
+leave a gap between notes depending on potentiometer value
