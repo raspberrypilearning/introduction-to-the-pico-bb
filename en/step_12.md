@@ -10,9 +10,9 @@ A potentiometer has three pins. The outer pins are normally connected to a 3V3 p
 
 ![diagram of a potentiometer with the left pin labeled GND and the right pin labeled 3V3](images/potentiometer-illustration.png){:width="300px"}
 
-Here is how you could wire a potentiometer to a Raspberry Pi Pico:
+Here is how to wire a potentiometer to a Raspberry Pi Pico using a breadboard:
 
-[[[potentiometer-wiring]]] 
+![A potentiometer wired to analogue pin 0 on a Raspberry Pico using a breadboard](images/pico_pot_bb.png)
 
 Set up your potentiometer in your code:
 

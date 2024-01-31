@@ -14,7 +14,7 @@ Set up your buzzer in your code:
 [[[single-buzzer-pin]]]
 
 You can also use more than one buzzer: 
-![passive buzzer connected to a pico on pin 5 using a breadboard](images/pico_buzzers_bb.png)
+![Two passive buzzers connected to a pico on pins 5 and 10 using a breadboard](images/pico_buzzers_bb.png)
 
 [[[multiple-buzzer-pins]]]
 
