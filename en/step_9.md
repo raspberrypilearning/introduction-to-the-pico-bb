@@ -10,17 +10,16 @@ There are also common anode RGBLEDs, which means that one leg needs connecting t
 
 With either type of RGB LED, a resistor is needed for each pin that is connected to a **GPIO** pin. The datasheet for an RGB LED will tell you the **forward current** and **forward voltage** for each colour on the LED, to help you calculate the resistor needed, although it is often easier just to use a fairly high value resistor on each of the legs, such as a 220Ω.
 
-You can prepare your RGB LEDs ready to use in projects:
+Note: You will need to use resistors with the three shorter legs of the RGB LED. The longer leg is for ground and doesn’t require a resistor (indicated by an arrow on the diagram below).
 
-[[[rgb-led-resistor-electrical-tape]]]
+Look: Your RGB LED has four legs. Turn your RGB LED so that the longer GND leg is second from the left. Notice how the legs go R for red, then GND, then G for green and finally B for blue. This will help you remember what each leg is doing.
 
-[[[rgb-led-resistor-solder-heat-shrink]]]
+Here is how you can use a breadboard to an RGB LED to a Raspberry Pi Pico.
+
 
 Here is how you could wire an RGB LED to a Raspberry Pi Pico.
 
-![Raspberry Pi Pico wired to an RGB LED through GPIO pins 1 - 3 and to GND](images/rgb-led-diagram.png)
-
-[[[rgb-wiring]]]
+![Raspberry Pi Pico wired to an RGB LED on a breadboard through GPIO pins 1 - 3 and to GND](images/pico_rgb_bb.png)
 
 Set up your RGB LED in your code:
 
