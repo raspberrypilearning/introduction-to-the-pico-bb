@@ -21,7 +21,6 @@ title: What you will need
 
 To complete the [Introduction to Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path:
 
-+ A [full-size (830 tie-point) breadboard](https://thepihut.com/products/full-sized-breadboard) or [two half-size (400 tie-point) breadboards](https://thepihut.com/products/raspberry-pi-breadboard-half-size) that can be joined together.
 + 1 red LED
 + 1 yellow LED
 + A selection of other single-colour LEDs

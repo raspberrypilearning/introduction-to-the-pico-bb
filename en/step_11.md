@@ -6,22 +6,24 @@ The Raspberry Pi Pico can detect when an input is connected between GND and one 
 A <span style="color: #0faeb0">switch</span> is a an electrical component that can be **closed** to allow electrical current to flow and **open** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is a kind of momentary switch that makes a connection only when it is **pressed**. 
 </p> 
 
-The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. The most common type of button is a Push Button Switch but there are many types of buttons and switches that can be bought or crafted. 
+The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. The most common type of button is a Push Button Switch but there are many types of buttons and switches that can be bought or crafted. Here are a couple of crafted ideas you could try:
 
-Here is how to wire a button to a Raspberry Pi Pico on a breadboard:
+[[[drop-switch]]]
+[[[pull-switch]]] 
 
-![Single button connected to a Pico on pin 18 using a breadboard](images/pico_button_bb.png)
+Here is how you could wire buttons and switches to a Raspberry Pi Pico:
 
-Set up your button  in your code:
+[[[single-button-wiring]]]
+[[[multiple-button-wiring]]]
+[[[crafted-switch-button-wiring]]]
+[[[multiple-crafted-switch-button-wiring]]]
+
+Set up your button or switch in your code:
 
 [[[single-button-pins]]]
-
-Just as with the other components, you can wire up more than one:
-
-![Single button connected to a Pico on pin 18 using a breadboard](images/pico_buttons_bb.png)
-
 [[[multiple-button-pins]]]
-
+[[[single-switch-pins]]]
+[[[multiple-switches-pins]]]
 
 There are many things you can do with buttons and switches, here are a couple of ideas:
 
