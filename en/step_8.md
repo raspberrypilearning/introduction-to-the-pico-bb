@@ -67,11 +67,12 @@ For instance, for the LED data above needs a resistor of at least 48Ω
 
 --- /collapse ---
 
-You can connect your LED to the Raspberry Pi Pico using a breadboard. The ground connection from the Raspberry Pi Pico is connected to the inner edge rail of the breadboard to make it easier to connect other parts of the circuit, in this case, the cathode legs of the LEDs. The other leg of thee LED (the anode) is connected to GPIO pin 13 through a resistor. If you use a different GPIO pin, you should change the number used in your Python program. }
+You can connect your LED to the Raspberry Pi Pico using a breadboard. The ground connection from the Raspberry Pi Pico is connected to the inner edge rail of the breadboard to make it easier to connect other parts of the circuit, in this case, the cathode legs of the LEDs. The other leg of the LED (the anode) is connected to GPIO pin 13 through a resistor. If you use a different GPIO pin, you should change the number used in your Python program. }
 
 ![Raspberry Pi Pico connected to an LED and resistor on a breadboard](images/pico_led_bb.png)
 
-Duplicate the same circuit on another pin to add more LEDs. 
+
+Duplicate the same circuit using other digital pins to add more LEDs. Refer to the [pinout diagram](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*1pv1afl*_ga*Nzc3NTQ3ODU4LjE2OTUzNzcxODM.*_ga_22FD70LWDS*MTcwNjc4MjU4MC42LjAuMTcwNjc4MjU4MC4wLjAuMA..) to check which pins are appropriate. 
 
 ![Raspberry Pi Pico connected to 3 LEDs and resistors on a breadboard](images/pico_leds_bb.png)
 

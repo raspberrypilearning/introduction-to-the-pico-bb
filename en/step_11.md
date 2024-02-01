@@ -9,6 +9,8 @@ A <span style="color: #0faeb0">switch</span> is a an electrical component that c
 The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. The most common type of button is a Push Button Switch but there are many types of buttons and switches that can be bought or crafted.
 
 Here is how to wire a button to a Raspberry Pi Pico on a breadboard:
+
+
 ![Single button connected to a Pico on pin 18 using a breadboard](images/pico_button_bb.png)
 
 Set up your button  in your code:

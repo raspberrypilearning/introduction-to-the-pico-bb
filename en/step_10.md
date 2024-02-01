@@ -7,6 +7,8 @@ There are two main types of buzzer, an **active** buzzer and a **passive** buzze
 Some passive buzzers can be connected without worrying about which pin is connected to ground, and which pin is connected to a GPIO pin on the Raspberry Pi Pico. Others have to be connected in a specific way and will normally have a **+** symbol on the surface, to tell you which pin needs connecting to the GPIO signal pin
 
 Here's how to connect a single buzzer.
+
+
 ![passive buzzer connected to a pico on pin 5 using a breadboard](images/pico_buzzer_bb.png)
 
 Set up your buzzer in your code:
@@ -14,6 +16,8 @@ Set up your buzzer in your code:
 [[[single-buzzer-pin]]]
 
 You can also use more than one buzzer: 
+
+
 ![Two passive buzzers connected to a pico on pins 5 and 10 using a breadboard](images/pico_buzzers_bb.png)
 
 [[[multiple-buzzer-pins]]]
