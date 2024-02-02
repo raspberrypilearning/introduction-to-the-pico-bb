@@ -5,7 +5,7 @@ A potentiometer is a resistor that allows you to change the value of the resista
 Turning the dial on the top of the potentiometer will change the resistance of the potentiometer, which can then be read by the Raspberry Pi Pico.
 
 ![a side by side photograph of a small potentiometer, showing the three pins and the arrow on the dial](images/potentiometer.jpg)
-![a side by side photograph of a large 10K potentiometer, showing the three pins and label](images/big_pot.jpg)
+![a side by side photograph of a large 10K potentiometer, showing the three pins and label](images/big_pot.png)
 
 A potentiometer has three pins. The outer pins are normally connected to a 3V3 pin and a GND pin. The middle pin is connected to a GPIO pin capable of reading an analogue signal:
 
@@ -118,3 +118,15 @@ for note in liten_mus:
 --- /code ---
 
 --- /collapse ---
+
+There are also other components whose resistance varies in response to light. These are called Light Dependent Resistors (LDRs). As light shines on their surface,  the resistance drops so in combination with a standard 10KΩ resistor, we can use an LDR as a light sensor.
+
+![An LDR wired to analogue pin 0 on a Raspberry Pico using a breadboard](images/pico_ldr_bb.png)
+
+You can reuse the same code as you used with the pot to see how the values printed change as you cover and uncover the LDR. 
+
+A type of variable resistor can also be used to measure moisture. These typically come with their own control board (which includes a pot for adjusting the sensitivity) that has both a digital and analogue output. The analogue output acts like the light sensor and indicates how wet the surface of the detector board has become. The digital output acts like a switch - when the detector board has become wet enough that the trigger threshold (set by the pot) is exceeded, it will go "High".  You can use both outputs  with a Raspberry Pi Pico to build a simple rain alarm. 
+
+![A moisture detector wired to analogue pin 0 and digital pin 22 on a Raspberry Pico using a breadboard](images/pico_rain_bb.png)
+
+Combine the code for a pot (or LDR) and a button/switch to creation a detector. You could also add a buzzer or LED to provide an audible or visible alert so that you know it's time to bring the washing in!
