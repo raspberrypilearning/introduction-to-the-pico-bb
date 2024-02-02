@@ -23,7 +23,7 @@ You can use a function to be called when a button is pressed.
 --- collapse ---
 
 ---
-title: Call a different function when a is pressed
+title: Call a different function when a button is pressed
 ---
 
 Here you can create a function that will turn on the onboard LED for 1 second when the button is pressed.
