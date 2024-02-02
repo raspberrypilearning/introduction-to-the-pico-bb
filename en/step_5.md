@@ -1,6 +1,6 @@
 ## Install the picozero library
 
-`picozero` is a MicroPython library for beginners to the Raspberry Pi Pico. 
+`picozero` is a MicroPython library for beginners to the Raspberry Pi Pico. If it is not already installed on your Raspberry Pi Pico, follow the steps below. 
 
 --- task ---
 

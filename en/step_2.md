@@ -22,4 +22,13 @@ The [Introduction to Raspberry Pi Pico](https://projects.raspberrypi.org/en/path
 
 [[[pin-socket-jumper-wires]]]
 
+One of the easiest ways to connect electronic components to a Raspberry Pi Pico is using a breadboard. Not to be confused with the objects often found in kitchens for use when slicing loaves,  electronic breadboards allow you to create temporary connections between components without the need for solder or fiddly tape. This makes it easy to swap things in and out quickly if you need to revise or correct something.
 
+A Raspberry Pi Pico with soldered headers fits nicely into a Half+ sized breadboard, although there isn't much room for building large circuits in the remaining space. For this reason, a Full size breadboard may be better. 
+
+![Raspberry Pi Pico mounted on a Full+ size breadboard](images/pico_only_bb.png)
+
+Most half-sized breadboards can be connected together, but remember that the two sets of edge rails will not be automatically connected, so you should do this using jumper wires. 
+
+
+![Raspberry Pi Pico mounted on 2 half+ size breadboards joined together](images/pico_only2_bb.png)

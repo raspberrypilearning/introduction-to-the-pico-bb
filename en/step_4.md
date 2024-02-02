@@ -1,6 +1,6 @@
 ## Add the MicroPython firmware
 
-If you have never used MicroPython on your Raspberry Pi Pico, you will need to add the MicroPython firmware. 
+If you have never used MicroPython on your Raspberry Pi Pico, you will need to add the MicroPython firmware. If your Raspberry Pi Picos already have the latest firmware installed, you can skip to the next step. 
 
 [[[add-micropython-firmware]]]
 [[[firmware-installation-menu]]]
