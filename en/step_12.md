@@ -1,18 +1,22 @@
 ## Potentiometers
 
-A potentiometer is a resistor that allows you to change the value of the resistance. They are often just called **pots**.
+A potentiometer is a resistor that allows you to change the value of the resistance. They are often just called **pots** and theey come if a few different shapes and sizes.
 
 Turning the dial on the top of the potentiometer will change the resistance of the potentiometer, which can then be read by the Raspberry Pi Pico.
 
-![a side by side photograph of a potentiometer, showing the three pins and the arrow on the dial](images/potentiometer.jpg)
+![a side by side photograph of a small potentiometer, showing the three pins and the arrow on the dial](images/potentiometer.jpg)
+![a side by side photograph of a large 10K potentiometer, showing the three pins and label](images/big_pot.jpg)
 
 A potentiometer has three pins. The outer pins are normally connected to a 3V3 pin and a GND pin. The middle pin is connected to a GPIO pin capable of reading an analogue signal:
 
 ![diagram of a potentiometer with the left pin labeled GND and the right pin labeled 3V3](images/potentiometer-illustration.png){:width="300px"}
 
-Here is how to wire a potentiometer to a Raspberry Pi Pico using a breadboard:
+Here are two examples of how to wire a potentiometer to a Raspberry Pi Pico using a breadboard:
 
 ![A potentiometer wired to analogue pin 0 on a Raspberry Pico using a breadboard](images/pico_pot_bb.png)
+
+
+![A potentiometer wired to analogue pin 0 on a Raspberry Pico using a breadboard](images/pico_pot2_bb.png)
 
 Set up your potentiometer in your code:
 
