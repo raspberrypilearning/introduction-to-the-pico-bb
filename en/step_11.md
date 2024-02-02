@@ -17,6 +17,38 @@ Set up your button  in your code:
 
 [[[single-button-pins]]]
 
+You can use a function to be called when a button is pressed.
+
+
+--- collapse ---
+
+---
+title: Call a different function when a is pressed
+---
+
+Here you can create a function that will turn on the onboard LED for 1 second when the button is pressed.
+
+--- code ---
+---
+language: python
+---
+from picozero import Button, pico_led
+from time import sleep
+
+button = Button(10)
+
+def flash():
+    pico_led.on()
+    sleep(0.5)
+    pico_led.off()
+
+button_1.when_pressed = flash
+
+
+--- /code ---
+
+--- /collapse ---
+
 Just as with the other components, you can wire up more than one:
 
 ![Two buttons connected to a Pico on pin 18 using a breadboard](images/pico_buttons_bb.png)
